@@ -1,6 +1,6 @@
 def find_divisors(number):
     
-    divisors = []
+    divisors = [100]
    
     for i in range(1, number + 1):
         
