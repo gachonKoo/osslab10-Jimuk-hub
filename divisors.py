@@ -1,7 +1,8 @@
 import sys
+
 def find_divisors(number):
     divisors = []
-     for i in range(1, number + 1):
+    for i in range(1, number + 1):
         if number % i == 0:
             divisors.append(str(i))
     return divisors
